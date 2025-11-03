@@ -1,11 +1,12 @@
 {
+  "version": "1",
   "name": "Farcaster Money Paiger",
   "url": "https://farcaster-money-paiger.vercel.app",
   "icon": "https://farcaster-money-paiger.vercel.app/icon.png",
   "description": "A mini app to explore Farcaster money pages",
   "accountAssociation": {
     "type": "farcaster",
-    "fid": 385179, 
+    "fid": 385179,
     "uri": "farcaster://accounts/385179"
   },
   "navigation": {
