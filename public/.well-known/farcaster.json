@@ -1,18 +1,14 @@
 {
+  "name": "Farcaster Money Paiger",
+  "url": "https://farcaster-money-paiger.vercel.app",
+  "icon": "https://farcaster-money-paiger.vercel.app/icon.png",
+  "description": "A mini app to explore Farcaster money pages",
   "accountAssociation": {
-    "header": "eyJmaWQiOjM4NTE3OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGM2RjIyMzE1MDIzZjQ3REFGMjFDNTgwRDc3ZDVGODYwQzllQzhEODYifQ",
-    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItbW9uZXktcGFpZ2VyLnZlcmNlbC5hcHAifQ",
-    "signature": "IcTKZICfRWsYoGADlpgfEn1bJvBVguQLj1HGUUqZwaFaX1FsljcnciEsLel15Jw78K3DoVg2R6Czx2l20Yzk4Rw="
+    "type": "farcaster",
+    "fid": 12345, 
+    "uri": "farcaster://accounts/12345"
   },
-  "frame": {
-    "version": "1",
-    "name": "Example Frame",
-    "iconUrl": "https://farcaster-money-paiger.vercel.app/icon.png",
-    "homeUrl": "https://farcaster-money-paiger.vercel.app",
-    "imageUrl": "https://farcaster-money-paiger.vercel.app/image.png",
-    "buttonTitle": "Check this out",
-    "splashImageUrl": "https://farcaster-money-paiger.vercel.app/splash.png",
-    "splashBackgroundColor": "#eeccff",
-    "webhookUrl": "https://farcaster-money-paiger.vercel.app/api/webhook"
+  "navigation": {
+    "type": "web"
   }
 }
